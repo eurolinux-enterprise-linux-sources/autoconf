@@ -1,7 +1,7 @@
 Summary:    A GNU tool for automatically configuring source code
 Name:       autoconf
 Version:    2.69
-Release:    10%{?dist}
+Release:    11%{?dist}
 License:    GPLv2+ and GFDL
 Group:      Development/Tools
 Source0:    http://ftpmirror.gnu.org/autoconf/autoconf-%{version}.tar.xz
@@ -97,6 +97,9 @@ fi
 %doc AUTHORS COPYING* ChangeLog NEWS README THANKS TODO
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.69-11
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Pavel Raiskup <praiskup@redhat.com> - 2.69-10
 - BR the perl(Text::ParseWords) explicitly to enable build again
 
